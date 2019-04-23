@@ -6,7 +6,7 @@ class ApplicationController <  Sinatra :Base
     erb :index
 
   end
-  get '/' do
+  get '/gossips/new/' do
     erb :new_gossip
   end
   post '/gossips/new/' do
